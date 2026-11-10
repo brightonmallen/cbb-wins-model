@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Replace with all group members’ names">
+<meta name="author" content="Brighton Allen, Tyler Jorgensen, Tyler Anderson">
 <meta name="dcterms.date" content="2026-11-10">
-<meta name="description" content="Replace with a brief description for link previews.">
+<meta name="description" content="Using CBB data from Kaggle">
 
-<title>Replace with a specific, informative title – STAT 330 Portfolio</title>
+<title>Analysis of Team Metrics and Overall Wins in College Basketball – STAT 330 Portfolio</title>
 <style>
 
 code{white-space: pre-wrap;}
@@ -2684,13 +2684,13 @@ font-size: 0.88rem;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Replace with a specific, informative title</h1>
-<p class="subtitle lead">Replace with one sentence that tells readers why the question matters</p>
+<h1 class="title">Analysis of Team Metrics and Overall Wins in College Basketball</h1>
+<p class="subtitle lead">What do teams need to do well in order to win more games?</p>
 </div>
 
 <div>
   <div class="description">
-    Replace with a brief description for link previews.
+    Using CBB data from Kaggle
   </div>
 </div>
 
@@ -2700,7 +2700,7 @@ font-size: 0.88rem;
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Replace with all group members’ names </p>
+             <p>Brighton Allen, Tyler Jorgensen, Tyler Anderson </p>
           </div>
   </div>
     
@@ -2736,6 +2736,7 @@ Tip
 <section id="the-question" class="level2">
 <h2 class="anchored" data-anchor-id="the-question">The question</h2>
 <p><strong>In one or two short paragraphs, introduce the setting, audience, focused research question, data source, observational unit, response, important predictors, and one important data limitation. Lead with what makes the question worth answering.</strong></p>
+<p>Using the myriad of data recorded in basketball games, such as how well a team shoots, how well a team defense, or how well a team rebounds, we want to analyze which metrics most correlate to winning basketball games. Does a team performing well in a certain metric indicate they will have a good season? Are there certain things a team should focus improvement on if they want to win more games? The findings from this analysis can be valuable in helping teams improve and find more success over the course of a season. It can also point toward important attributes to look for in inidividual players recruited out of high school or in the transfer portal.</p>
 </section>
 <section id="what-the-baseline-shows" class="level2">
 <h2 class="anchored" data-anchor-id="what-the-baseline-shows">What the baseline shows</h2>
@@ -2743,7 +2744,8 @@ Tip
 <div class="cell">
 <details class="code-fold">
 <summary>Show code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load packages and data, document preparation, and fit the baseline.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>cbb <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;cbb_data/cbb.csv&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
