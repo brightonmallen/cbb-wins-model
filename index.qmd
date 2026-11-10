@@ -1,9 +1,9 @@
 ---
-title: "Replace with a specific, informative title"
-subtitle: "Replace with one sentence that tells readers why the question matters"
-author: "Replace with all group members' names"
+title: "Analysis of Team Metrics and Overall Wins in College Basketball"
+subtitle: "What do teams need to do well in order to win more games?"
+author: "Brighton Allen, Tyler Jorgensen, Tyler Anderson"
 date: last-modified
-description: "Replace with a brief description for link previews."
+description: "Using CBB data from Kaggle"
 ---
 
 **Narrative word count:** Replace with a number from 750 to 1,000.
@@ -15,6 +15,8 @@ This template suggests one way to tell the story. You may rename, combine, or re
 ## The question
 
 **In one or two short paragraphs, introduce the setting, audience, focused research question, data source, observational unit, response, important predictors, and one important data limitation. Lead with what makes the question worth answering.**
+
+Using the myriad of data recorded in basketball games, such as how well a team shoots, how well a team defense, or how well a team rebounds, we want to analyze which metrics most correlate to winning basketball games. Does a team performing well in a certain metric indicate they will have a good season? Are there certain things a team should focus improvement on if they want to win more games? The findings from this analysis can be valuable in helping teams improve and find more success over the course of a season. It can also point toward important attributes to look for in inidividual players recruited out of high school or in the transfer portal. 
 
 ## What the baseline shows
 
