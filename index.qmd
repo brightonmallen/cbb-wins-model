@@ -23,7 +23,8 @@ Using the myriad of data recorded in basketball games, such as how well a team s
 **Describe and justify a simple course-based baseline regression model. Interpret the result that best establishes the rest of the story, including its direction, magnitude, scale, and uncertainty. Explain one limitation or unresolved pattern that motivates deeper analysis.**
 
 ```{r}
-# Load packages and data, document preparation, and fit the baseline.
+#data
+cbb <- read.csv("cbb_data/cbb.csv")
 ```
 
 ```{r}
